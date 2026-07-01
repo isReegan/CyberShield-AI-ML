@@ -1,0 +1,25 @@
+{
+  "trained_at": "2026-06-30T00:59:07.086029",
+  "dataset_rows": 245,
+  "training_time_seconds": 0.09,
+  "metrics": {
+    "accuracy": 89.8,
+    "precision": 85.71,
+    "recall": 96.0,
+    "f1_score": 90.57,
+    "roc_auc": 99.33,
+    "confusion_matrix": [
+      [
+        20,
+        4
+      ],
+      [
+        1,
+        24
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n         Ham       0.95      0.83      0.89        24\n        Scam       0.86      0.96      0.91        25\n\n    accuracy                           0.90        49\n   macro avg       0.90      0.90      0.90        49\nweighted avg       0.90      0.90      0.90        49\n"
+  },
+  "model_path": "/sessions/lucid-ecstatic-clarke/mnt/outputs/CyberShield-AI/models/scam_detector.pkl",
+  "vectorizer_path": "/sessions/lucid-ecstatic-clarke/mnt/outputs/CyberShield-AI/models/tfidf_vectorizer.pkl"
+}
